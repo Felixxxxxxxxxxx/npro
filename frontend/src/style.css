@@ -1,0 +1,15 @@
+.button {
+    color: DodgerBlue;
+    font-family: Arial;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
