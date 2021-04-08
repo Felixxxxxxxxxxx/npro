@@ -3,8 +3,8 @@ import './style.css'
 function App() {
   return (
     <div className="App">
-        <div>npro</div>
-        <div className="parent">
+        <h1>npro</h1>
+        <section className="parent">
 
             <button className="button">Order Manager</button>
             <button className="button">Take Orders</button>
@@ -83,7 +83,7 @@ function App() {
 
 
 
-        </div>
+        </section>
 
 
 
