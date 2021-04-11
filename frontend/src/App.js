@@ -1,9 +1,28 @@
 import './style.css'
+import Board from './components/Board'
+import Card from './components/Card'
 
 function App() {
   return (
     <div className="App">
         <h1>npro</h1>
+        <section>
+            <main className="parent">
+                <Board id="board-1" className="board">
+                    <Card id="card-1" className="card" draggable="true">
+                        <p>Card One</p>
+                    </Card>
+                </Board>
+
+                <Board id="board-2" className="board">
+                    <Card id="card-2" className="card" draggable="true">
+                        <p>Card Two</p>
+                    </Card>
+                </Board>
+                Here will be our boards
+
+            </main>
+        </section>
         <section className="parent">
 
             <button className="button">Order Manager</button>
